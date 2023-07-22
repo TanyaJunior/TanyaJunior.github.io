@@ -296,7 +296,8 @@ p#typing-paragraph{
 .down-arrow img {
   display:none;
 }
-.me img {
-    width: 40%;
-    height: auto;
+.me{
+  position: absolute;
+  top:60px;
+  width:40%;
 }
