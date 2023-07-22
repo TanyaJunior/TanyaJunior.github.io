@@ -276,3 +276,20 @@ p#typing-paragraph{
         width: 100%; /* Adjust background image width for mobile */
       }
 `
+.hamburger {
+  width: 30px;
+  height: 2px;
+  background-color: white;
+  margin: 6px 0;
+}
+
+/* Add media query for smaller screens (e.g., mobile devices) */
+@media screen and (max-width: 768px) {
+  .menu {
+    display: none; /* Hide the menu for mobile devices */
+  }
+
+  .menu-toggle {
+    display: block; /* Show the hamburger menu for mobile devices */
+  }
+}
