@@ -37,3 +37,9 @@ function typeText() {
 
 // Call the function to start the typing effect when the page loads
 document.addEventListener("DOMContentLoaded", typeText);
+  const menuToggle = document.querySelector(".menu-toggle");
+  const menu = document.querySelector(".menu");
+
+  menuToggle.addEventListener("click", () => {
+    menu.classList.toggle("active");
+  });
