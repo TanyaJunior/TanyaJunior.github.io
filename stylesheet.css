@@ -238,7 +238,7 @@ p#typing-paragraph{
       }
 
       .me img {
-        width: 100%; /* Adjust the image width to fit smaller screens */
+        width: 40%; /* Adjust the image width to fit smaller screens */
         height: auto;
       }
 
