@@ -297,7 +297,6 @@ nav {
   display:none;
 }
 .me{
-  position: absolute;
   top:60px;
   width:40%;
 }
@@ -440,5 +439,11 @@ body {
 
       .menu-toggle.active + .menu li {
         margin: 10px 20px;
+      }
+      .typed paragraph: {
+        width:273px;
+      }
+      .header{
+        margin:0;
       }
     }
