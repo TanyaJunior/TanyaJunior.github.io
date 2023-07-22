@@ -306,3 +306,12 @@ nav {
   text-align: center;
   color: black;
 }
+@media screen and (max-width: 768px) {
+  .menu {
+    display: none; /* Hide the menu for mobile devices */
+  }
+
+  .menu-toggle {
+    display: block; /* Show the hamburger menu for mobile devices */
+  }
+}
