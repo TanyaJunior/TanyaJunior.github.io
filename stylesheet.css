@@ -431,7 +431,7 @@ body {
       .menu-toggle.active + .menu {
         display: flex;
         flex-direction: column;
-        background-color: #065c04;
+        background-color: black;
         position: absolute;
         top: 60px; /* Adjust the distance from the navbar */
         right: 0;
