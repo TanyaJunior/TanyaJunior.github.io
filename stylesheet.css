@@ -440,8 +440,8 @@ body {
       .menu-toggle.active + .menu li {
         margin: 10px 20px;
       }
-      .typed paragraph: {
-        width:273px;
+      .typed paragraph{
+        width:0;
       }
       .header{
         margin:0;
