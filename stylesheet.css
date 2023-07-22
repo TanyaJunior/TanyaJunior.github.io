@@ -367,3 +367,78 @@ body {
     display: block; /* Show the hamburger menu for mobile devices */
   }
 }
+ /*might be deleted */
+    /* Hamburger menu styles */
+    .navbar {
+      background-color: #065c04;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px;
+    }
+
+    .menu {
+      display: flex;
+      list-style: none;
+    }
+
+    .menu li {
+      margin-right: 20px;
+    }
+
+    .menu a {
+      color: white;
+      text-decoration: none;
+      padding: 10px;
+    }
+
+    .menu-toggle {
+      display: none; /* Hide the hamburger menu by default for larger screens */
+      cursor: pointer;
+    }
+
+    .hamburger {
+      width: 30px;
+      height: 2px;
+      background-color: white;
+      margin: 6px 0;
+      transition: transform 0.3s ease-in-out; /* Add smooth animation to the icon */
+    }
+
+    /* Add media query for smaller screens (e.g., mobile devices) */
+    @media screen and (max-width: 768px) {
+      .menu {
+        display: none; /* Hide the menu for mobile devices */
+      }
+
+      .menu-toggle {
+        display: block; /* Show the hamburger menu for mobile devices */
+      }
+
+      /* Rotate the hamburger icon to create an "X" when the menu is open */
+      .menu-toggle.active .hamburger:nth-child(1) {
+        transform: rotate(-45deg) translate(-4px, 5px);
+      }
+      .menu-toggle.active .hamburger:nth-child(2) {
+        opacity: 0;
+      }
+      .menu-toggle.active .hamburger:nth-child(3) {
+        transform: rotate(45deg) translate(-4px, -5px);
+      }
+
+      /* Show the menu when the menu-toggle is active (clicked) */
+      .menu-toggle.active + .menu {
+        display: flex;
+        flex-direction: column;
+        background-color: #065c04;
+        position: absolute;
+        top: 60px; /* Adjust the distance from the navbar */
+        right: 0;
+        left: 0;
+      }
+
+      .menu-toggle.active + .menu li {
+        margin: 10px 20px;
+      }
+    }
