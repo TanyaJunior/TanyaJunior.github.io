@@ -43,3 +43,7 @@ document.addEventListener("DOMContentLoaded", typeText);
   menuToggle.addEventListener("click", () => {
     menu.classList.toggle("active");
   });
+ function toggleMenu() {
+      const menuToggle = document.querySelector(".menu-toggle");
+      menuToggle.classList.toggle("active");
+    }
