@@ -247,8 +247,7 @@ p#typing-paragraph{
       }
 
       .KicksKart img {
-        width: 40%; /* Adjust image width to fit smaller screens */
-        margin: 20px 0; /* Adjust margin for mobile */
+        width: 100%; /* Adjust image width to fit smaller screens */
       }
 
       .KicksKart h1 {
