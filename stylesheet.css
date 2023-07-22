@@ -218,7 +218,7 @@ a.active{
   background-color: #555; /* Color of the thumb when hovered */
 }
 p#typing-paragraph{
-  width: 432px;
+  width: 0px;
 }
 @media screen and (max-width: 768px) {
       .header {
