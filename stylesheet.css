@@ -296,3 +296,7 @@ p#typing-paragraph{
 .down-arrow img {
   display:none;
 }
+.me img {
+    width: 40%;
+    height: auto;
+}
