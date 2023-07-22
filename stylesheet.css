@@ -2,7 +2,6 @@
   font-family: 'Poppins', sans-serif;
 }
 
-@import 'node_modules/locomotive-scroll/dist/locomotive-scroll';
 
 
  nav ul li{
@@ -221,13 +220,59 @@ a.active{
 p#typing-paragraph{
   width: 432px;
 }
-/* Styles for devices with a maximum width of 768 pixels (typical for tablets) */
 @media screen and (max-width: 768px) {
-  /* Your styles for tablets here */
-}
+      .header {
+        margin-left: 20px; /* Adjust margins for smaller screens */
+      }
 
-/* Styles for devices with a maximum width of 480 pixels (typical for smartphones) */
-@media screen and (max-width: 480px) {
-  /* Your styles for smartphones here */
-}
+      .circle {
+        width: 80px;
+        height: 80px; /* Adjust the circle size for mobile */
+        margin-left: 10px; /* Adjust circle position for mobile */
+        margin-top: -10px;
+      }
+
+      .socials {
+        margin-left: 0; /* Reset margin for mobile */
+        margin-top: 20px; /* Adjust spacing for mobile */
+      }
+
+      .me img {
+        width: 100%; /* Adjust the image width to fit smaller screens */
+        height: auto;
+      }
+
+      .KicksKart {
+        flex-direction: column; /* Stack the elements vertically for mobile */
+      }
+
+      .KicksKart img {
+        width: 100%; /* Adjust image width to fit smaller screens */
+        margin: 20px 0; /* Adjust margin for mobile */
+      }
+
+      .KicksKart h1 {
+        margin-left: 20px; /* Adjust heading margin for mobile */
+      }
+
+      .info p {
+        margin-left: 20px; /* Adjust paragraph margin for mobile */
+      }
+
+      .tech-stack img {
+        width: 50px; /* Adjust technology icon size for mobile */
+        padding: 10px; /* Adjust padding for mobile */
+      }
+
+      .me-image {
+        flex-direction: column; /* Stack the images vertically for mobile */
+      }
+
+      .certificate-image {
+        width: 100%; /* Adjust certificate image width for mobile */
+      }
+
+      .bg {
+        width: 100%; /* Adjust background image width for mobile */
+      }
 `
