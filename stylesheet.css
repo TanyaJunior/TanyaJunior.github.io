@@ -235,11 +235,16 @@ p#typing-paragraph{
       .socials {
         margin-left: 0; /* Reset margin for mobile */
         margin-top: 20px; /* Adjust spacing for mobile */
+        text-align: center;
       }
 
       .me img {
         width: 40%; /* Adjust the image width to fit smaller screens */
         height: auto;
+        width: 70%;
+        height: auto;
+        margin-left: 19%;
+        margin-top: -13%;
       }
 
       .KicksKart {
@@ -276,7 +281,7 @@ p#typing-paragraph{
       .bg {
         width: 100%; /* Adjust background image width for mobile */
       }
-`
+
 nav {
   width: 30px;
   height: 2px;
@@ -321,12 +326,17 @@ body {
 }
 
 .navbar {
-  background-color: #065c04;
-  color: white;
+  background-color: #0e3d0d;
+  color: #065c04;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
+  padding-top: 10px;
+  width: 100%;
+  height: 4%;
+  margin: 0;
+  flex-direction: row-reverse;
+
 }
 
 .menu {
@@ -353,7 +363,7 @@ body {
 .hamburger {
   width: 30px;
   height: 2px;
-  background-color: white;
+  background-color: #065c04;
   margin: 6px 0;
 }
 
@@ -369,14 +379,7 @@ body {
 }
  /*might be deleted */
     /* Hamburger menu styles */
-    .navbar {
-      background-color: #065c04;
-      color: white;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 10px;
-    }
+
 
     .menu {
       display: flex;
@@ -445,6 +448,15 @@ body {
         width:273px;
       }
       .header{
-        margin:0;
+        margin-top: 0;
+      }
+      .Hire-me-btn {
+        background-color: #065c04;
+        padding: 12px 70px 12px 70px;
+        color: #fff;
+        border-radius: 25px;
+        /* text-align: center; */
+        margin-left: 18%;
       }
     }
+  }
