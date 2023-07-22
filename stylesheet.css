@@ -301,3 +301,8 @@ nav {
   top:60px;
   width:40%;
 }
+ nav ul li{
+  display: inline;
+  text-align: center;
+  color: black;
+}
