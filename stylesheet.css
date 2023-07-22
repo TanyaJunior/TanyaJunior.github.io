@@ -276,7 +276,7 @@ p#typing-paragraph{
         width: 100%; /* Adjust background image width for mobile */
       }
 `
-.hamburger {
+nav {
   width: 30px;
   height: 2px;
   background-color: white;
