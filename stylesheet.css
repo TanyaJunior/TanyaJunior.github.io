@@ -221,3 +221,13 @@ a.active{
 p#typing-paragraph{
   width: 432px;
 }
+/* Styles for devices with a maximum width of 768 pixels (typical for tablets) */
+@media screen and (max-width: 768px) {
+  /* Your styles for tablets here */
+}
+
+/* Styles for devices with a maximum width of 480 pixels (typical for smartphones) */
+@media screen and (max-width: 480px) {
+  /* Your styles for smartphones here */
+}
+`
