@@ -315,3 +315,55 @@ nav {
     display: block; /* Show the hamburger menu for mobile devices */
   }
 }
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #065c04;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+}
+
+.menu li {
+  margin-right: 20px;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+/* Hamburger menu styles */
+.menu-toggle {
+  display: none; /* Hide the hamburger menu by default for larger screens */
+  cursor: pointer;
+}
+
+.hamburger {
+  width: 30px;
+  height: 2px;
+  background-color: white;
+  margin: 6px 0;
+}
+
+/* Add media query for smaller screens (e.g., mobile devices) */
+@media screen and (max-width: 768px) {
+  .menu {
+    display: none; /* Hide the menu for mobile devices */
+  }
+
+  .menu-toggle {
+    display: block; /* Show the hamburger menu for mobile devices */
+  }
+}
