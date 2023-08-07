@@ -47,3 +47,17 @@ document.addEventListener("DOMContentLoaded", typeText);
       const menuToggle = document.querySelector(".menu-toggle");
       menuToggle.classList.toggle("active");
     }
+
+    document.addEventListener("DOMContentLoaded", function() {
+      setTimeout(function() {
+        var loader = document.getElementById("loader");
+        var content = document.getElementById("content");
+
+        loader.style.opacity = "0";
+        loader.style.visibility = "hidden";
+
+        content.style.opacity = "1";
+        content.style.visibility = "visible";
+      }, 2000); // Delay in milliseconds (2 seconds)
+    });
+
